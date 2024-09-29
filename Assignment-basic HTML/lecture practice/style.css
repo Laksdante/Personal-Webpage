@@ -1,0 +1,45 @@
+body{
+    background-color: aqua;
+    background-image: url(backgroun.jpg);
+    background-repeat: top;
+    background-position: right center;
+    background-attachment: fixed;
+}
+.box1{
+    background-color: rgba(54, 238, 109, 0.842);
+    border: 5px blue solid ;
+}
+.box2{
+    background-color: brown;
+    border: 5px green dotted ;
+}
+.box3{
+    background-color: blueviolet;
+    border: 5px  ;
+}
+
+p{
+    color: rgb(50%, 20%, 10%);
+}
+h1{
+    color: rgb(255, 56, 45);
+}
+/* RGBA Values*/
+h2{
+    color:  RGBA(121, 67, 85,0.2);
+}
+
+/*HSL(Hue Saturation Lightness) color values */
+
+.p2{
+    color: hsl(240, 20%, 50%, 0.4);
+}
+.myFirst {
+    color: aqua;
+    align-items: center;
+}
+span{
+    color: blue;
+    text-align: center;
+    align-items: center;
+}

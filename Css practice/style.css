@@ -1,0 +1,28 @@
+figure {
+    width: 100%;
+    aspect-ratio: 1;
+    margin: 0 0 60px;
+    padding: 5xp 20px 0;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-rows: 100%;
+    cursor: pointer;
+    position: relative;
+    filter: drop-shadow(0 0 20px rgb(0 0 0/50%));
+}
+figure:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    inset: 0;
+    background: top/cover;
+    transform-origin: bottom;
+    filter: brightness(.9);
+    transition: .5s;
+}
+figure:before {
+    background-image: url(https://assets.codepen.io/1480814/necro-back.jpg);
+}
+img {
+    
+}
